@@ -5,17 +5,8 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link {{ ($active === "home") ? 'active' : '' }}" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {{ ($active === "about") ? 'active' : '' }}" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link {{ ($active === "product") ? 'active' : '' }}" href="/product">Product</a>
-          </li>
-        </ul>
+        <input class="form-control form-control-dark w-100 rounded-0 border-0" type="text" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
         
         <ul class="navbar-nav ms-auto">
           @auth
