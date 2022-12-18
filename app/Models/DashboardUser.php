@@ -8,4 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class DashboardUser extends Model
 {
     use HasFactory;
+
+    protected $guarded = ['id'];
 }

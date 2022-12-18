@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\DashboardUser;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 class DasboardUserController extends Controller
 {
@@ -48,7 +49,7 @@ class DasboardUserController extends Controller
      * @param  \App\Models\DashboardUser  $dashboardUser
      * @return \Illuminate\Http\Response
      */
-    public function show(DashboardUser $dashboardUser)
+    public function show()
     {
         //
     }
@@ -59,7 +60,7 @@ class DasboardUserController extends Controller
      * @param  \App\Models\DashboardUser  $dashboardUser
      * @return \Illuminate\Http\Response
      */
-    public function edit(DashboardUser $dashboardUser)
+    public function edit()
     {
         //
     }
@@ -71,7 +72,7 @@ class DasboardUserController extends Controller
      * @param  \App\Models\DashboardUser  $dashboardUser
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, DashboardUser $dashboardUser)
+    public function update(Request $request,)
     {
         //
     }
@@ -82,7 +83,7 @@ class DasboardUserController extends Controller
      * @param  \App\Models\DashboardUser  $dashboardUser
      * @return \Illuminate\Http\Response
      */
-    public function destroy(DashboardUser $dashboardUser)
+    public function destroy()
     {
         //
     }
