@@ -94,8 +94,7 @@
             <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-    
-    
+        
         <!-- START THE FEATURETTES -->
     
         <hr class="featurette-divider">
