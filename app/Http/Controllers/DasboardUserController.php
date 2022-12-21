@@ -21,7 +21,10 @@ class DasboardUserController extends Controller
     public function index()
     {
         if (Auth::user()->role == 'user') {
-            return view('dashboard-user.index');
+           return view('dashboard-user.index',[
+                'title' => 'user',
+                'active' => 'user'
+            ]);
         } else {
             abort(403);
         }
