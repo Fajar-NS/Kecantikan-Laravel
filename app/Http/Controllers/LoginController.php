@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -25,7 +26,12 @@ class LoginController extends Controller
 
         if(Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->intended('/dashboard-user');
+            
+            if (Auth::user()->role == 'admin') {
+                return redirect()->intended('/dashboard-admin');
+            } else if (Auth::user()->role == 'user') {
+                return redirect()->intended('/dashboard-user');
+            }
         }
         return back()->with('loginError', 'Login failed');
 

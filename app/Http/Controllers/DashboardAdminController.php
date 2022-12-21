@@ -5,7 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class DasboardUserController extends Controller
+class DashboardAdminController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -16,15 +16,12 @@ class DasboardUserController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
-        $this->middleware('role: user');
+        $this->middleware('role: admin');
     }
     public function index()
     {
-        if (Auth::user()->role == 'user') {
-           return view('dashboard-user.index',[
-                'title' => 'user',
-                'active' => 'user'
-            ]);
+        if (Auth::user()->role == 'admin') {
+            return view('dashboard-admin.index');
         } else {
             abort(403);
         }
@@ -54,10 +51,10 @@ class DasboardUserController extends Controller
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\DashboardUser  $dashboardUser
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show()
+    public function show($id)
     {
         //
     }
@@ -65,10 +62,10 @@ class DasboardUserController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\DashboardUser  $dashboardUser
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit()
+    public function edit($id)
     {
         //
     }
@@ -77,10 +74,10 @@ class DasboardUserController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\DashboardUser  $dashboardUser
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request,)
+    public function update(Request $request, $id)
     {
         //
     }
@@ -88,10 +85,10 @@ class DasboardUserController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\DashboardUser  $dashboardUser
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy()
+    public function destroy($id)
     {
         //
     }
