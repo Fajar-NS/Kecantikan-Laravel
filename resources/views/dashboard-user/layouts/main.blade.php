@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
     
-    <title>Kecantikan | user</title>
+    <title>Kecantikan | {{ $title }}</title>
 
   </head>
   <body>
