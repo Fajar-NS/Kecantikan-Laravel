@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DasboardUserController;
+use App\Http\Controllers\DashboardAdminController;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,3 +50,8 @@ Route::get('/register', [RegisterController::class , 'index'])->middleware('gues
 Route::post('/register', [RegisterController::class , 'store']);
 
 Route::get('/dashboard-user', [DasboardUserController::class, 'index']);
+
+Route::prefix('/dashboard-admin')->middleware('auth')->group(function () {
+    // dashboard admin
+    Route::get('/', [DashboardAdminController::class, 'index']);
+});

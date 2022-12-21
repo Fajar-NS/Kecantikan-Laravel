@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Controllers\Controller;
 use App\Models\User;
 use Illuminate\Http\Request;
 
@@ -28,8 +29,6 @@ class RegisterController extends Controller
         $validateData['password'] = bcrypt($validateData['password']);
 
         User::create($validateData);
-        $request->session()->flash('success', 'Registration successfull!! pleas login');
-
-        return redirect('/login');
+        return redirect('/login')->with('success', 'Registration successfull! Please login');
     }
 }
