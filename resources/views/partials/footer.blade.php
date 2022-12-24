@@ -1,132 +1,84 @@
-<footer class="bg-dark text-center text-white">
-    <div class="container p-4">
-      <section class="mb-8">
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="bi bi-facebook"></i></a>
-  
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="bi bi-twitter"></i></a>
-  
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="bi bi-google"></i></a>
-  
-        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
-          ><i class="bi bi-instagram"></i></a>
-  
-      <section class="">
-        <form action="">
-          <div class="row d-flex justify-content-center">
-            <div class="col-auto">
-              <p class="pt-2">
-                <strong>Sign up for our newsletter</strong>
-              </p>
-            </div>
+<footer class="text-center text-dark" style="background: #D0D7FF">
+  <div class="container p-4">
+    <section class="mb-8">
 
-            <div class="col-md-5 col-12">
-              <div class="form-outline form-white mb-4">
-                <input type="email" id="form5Example21" class="form-control"/>
-              </div>
-            </div>
-  
-            <div class="col-auto">
-              <button type="submit" class="btn btn-outline-light mb-4">
-                Subscribe
-              </button>
-            </div>
-          </div>
-        </form>
-      </section>
-      <section class="mb-4">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-          eum harum corrupti dicta, aliquam sequi voluptate quas.
-        </p>
-      </section>
-  
-      <section class="">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
+    
+    <section class="mb-4">
+      <h4>Next Cosmetic - Jual Beli Cosmetic Online</h4>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consectetur quisquam dolorem itaque est perferendis, deleniti natus quibusdam vel quis. Assumenda totam officia sint quibusdam, in quos culpa inventore sequi ea, maxime quasi quidem voluptate error! Necessitatibus voluptates consequuntur magnam ex non cumque doloribus! Eveniet nobis, eligendi error veritatis labore voluptatum distinctio tempore vero rerum est alias quisquam ratione voluptate culpa. Iste explicabo, quibusdam quas cumque accusantium et aut asperiores repellendus iusto alias unde, molestiae beatae velit ex? Ratione asperiores enim quisquam cum placeat at ad esse animi incidunt! Quo officia qui quasi, repellendus eveniet nihil iste quas in. Nihil?
+      </p>
+    </section>
 
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
-  
-          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-            <h5 class="text-uppercase">Links</h5>
-  
-            <ul class="list-unstyled mb-0">
-              <li>
-                <a href="#!" class="text-white">Link 1</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 2</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 3</a>
-              </li>
-              <li>
-                <a href="#!" class="text-white">Link 4</a>
-              </li>
-            </ul>
-          </div>
+    <section class="">
+      <div class="row">
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Next Cosmetic</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Tentang Next Cosmetic</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Mitra Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Metode Pembayaran</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Next Cosmetic Program</a>
+            </li>
+          </ul>
         </div>
-      </section>
-    </div>
-  
-    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-      © 2020 Copyright:
-      <a href="">Next Cosmetic</a>
-    </div>
-  </footer>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">jual</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Pusat Edukasi Seller</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Mitra Next Cosmetic</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Bantuan dan panduan</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-dark">Srarat dan ketentuan</a>
+            </li>
+            <li>
+              <a href="#!" class="text-dark">Kebijakan Privasi</a>
+            </li>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">ikuti kami</h5>
+
+          <ul class="list-unstyled mb-0">
+            <a class="btn btn-outline-dark btn-floating m-1"  href="#!" role="button">
+              <i class="bi bi-facebook"></i>
+            </a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a class="btn btn-outline-dark btn-floating m-1" href="#!" role="button">
+              <i class="bi bi-instagram"></i>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022 Copyright: Next Cosmetic
+    
+  </div>
+</footer>
