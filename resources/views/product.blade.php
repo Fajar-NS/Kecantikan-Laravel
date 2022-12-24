@@ -8,6 +8,7 @@
              <img src="img/wardah.jpg" style="width: 100%; height: 300px" class="card-img-top" alt="...">
              <div class="card-body">
                <h5 class="card-title">Wardah Lightening Powder Foundation Light Feel</h5>
+              <b>Rp.47.000-Rp.51.000</b>
                <p class="card-text">Bedak Yang Mencerahkan Dengan Hasil Natural</p>
                <ol>
                   <li>
@@ -29,6 +30,7 @@
              <img src="img/wardah eye shadow.jpg" style="width: 100%; height: 300px" class="card-img-top" alt="...">
              <div class="card-body">
                <h5 class="card-title">Wardah Eye Shadow - 3 Warna</h5>
+               <b>Rp.45.000-Rp.50.000</b>
                <p class="card-text">Sapuan warna intens untuk menonjolkan keindahan mata. Dikombinasikan dalam tiga warna sempurna untuk membantu mengekspresikan bentuk terbaik dari matamu. Terbuat dari Microcoated Particle yang nyaman dan lembut saat diaplikasikan.</p>
                <button class="btn btn-danger" type="Submit">Beli Sekarang</button>
             </div>
@@ -39,6 +41,7 @@
              <img src="img/maybelline superstay.jpg" style="width: 100%; height: 300px" class="card-img-top" alt="...">
              <div class="card-body">
                <h5 class="card-title">maybelline superstay Ink</h5>
+               <b>Rp.130.000</b>
                <p class="card-text">Maybelline Superstay Matte Ink Liquid Lipstick Stay Ink ORIGINAL 100%</p>
                <p>Tahan seharian di bibir, Maybelline Super Stay Matte Ink ini memang punya kelebihan di daya tahannya yang mampu bertahan selama 16 jam. </p>
                <button class="btn btn-danger" type="Submit">Beli Sekarang</button>
@@ -50,6 +53,7 @@
              <img src="img/Make over.jpg" style="width: 100%; height: 300px" class="card-img-top" alt="...">
              <div class="card-body">
                <h5 class="card-title">MAKE OVER Lash Impulse Waterproof Mascara 9 ml - Mascara Waterproof & Smudgeproof</h5>
+               <b>Rp.115.000</b>
                <p class="card-text">Make Over Lash Impulse Waterproof Mascara adalah maskara tahan air dengan 3D Maxi-Lash Technology yang menghasilkan volume 10x pada bulu mata anda menjadikannya lebih tebal, lentik, dan lebat. Maskara ini diformulasikan dengan zero-smudge formula yang menjaga performa maskara ini tidak luntur hingga 12 jam.</p>
                <button class="btn btn-danger" type="Submit">Beli Sekarang</button>
             </div>
