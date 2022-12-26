@@ -109,7 +109,7 @@
                 
                 <!-- Email input -->
                 <div class="form-outline mb-4">
-                  <input type="email" name="email" id="email" class="form-control @error('email')is-invalid @enderror" placeholder="name@example.com" required value="{{ old('email') }}"/>
+                  <input type="email" name="email" id="email" class="form-control @error('email')is-invalid @enderror" placeholder="email@example.com" required value="{{ old('email') }}"/>
                   <label class="form-label" for="email"></label>
                 </div>
                 @error('email')
@@ -146,10 +146,6 @@
   
                   <button type="button" class="btn btn-link btn-floating mx-1">
                     <i class="bi bi-google"></i>
-                  </button>
-  
-                  <button type="button" class="btn btn-link btn-floating mx-1">
-                    <i class="bi bi-twitter"></i>
                   </button>
                 </div>
               </form>
