@@ -5,6 +5,8 @@ use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
 use App\Http\Controllers\DasboardUserController;
 use App\Http\Controllers\DashboardAdminController;
+use App\Http\Controllers\CategoryController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -55,3 +57,8 @@ Route::prefix('/dashboard-admin')->middleware('auth')->group(function () {
     // dashboard admin
     Route::get('/', [DashboardAdminController::class, 'index']);
 });
+
+// category
+Route::resource('/categories', CategoryController::class);
+// product
+Route::resource('/products', ProductController::class);
