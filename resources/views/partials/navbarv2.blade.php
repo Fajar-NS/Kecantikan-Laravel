@@ -17,6 +17,10 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="/dashboard-user"><i class="bi bi-window"></i> My Dasboard</a></li>
                 <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="/categories"><i class="bi bi-window"></i> Category</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="/products"><i class="bi bi-window"></i> Product</a></li>
+                <li><hr class="dropdown-divider"></li>
                 <form action="/logout" method="post">
                 @csrf
                 <button type="submit" class="dropdown-item">
