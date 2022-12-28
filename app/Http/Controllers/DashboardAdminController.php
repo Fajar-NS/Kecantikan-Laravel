@@ -21,7 +21,10 @@ class DashboardAdminController extends Controller
     public function index()
     {
         if (Auth::user()->role == 'admin') {
-            return view('dashboard-admin.index');
+            return view('dashboard-admin.index',[
+                'title' => 'Admin',
+                'active' => 'admin'
+            ]);
         } else {
             abort(403);
         }
