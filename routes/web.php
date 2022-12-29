@@ -40,6 +40,27 @@ Route::get('/product', function () {
     ]);
 });
 
+Route::get('/make-up', function () {
+    return view ('make-up', [
+        "title" => "Make Up",
+        'active' => 'make up'
+    ] );
+});
+
+Route::get('/body-care', function () {
+    return view ('body-care', [
+        "title" => "Body Care",
+        'active' => 'body Care'
+    ]);
+});
+
+Route::get('/nails', function () {
+    return view ('nails', [
+        "title" => "Nails",
+        'active' => 'nails'
+    ]);
+});
+
 //login
 Route::get('/login', [LoginController::class , 'index'])->name('login')->middleware('guest');
 Route::post('/login', [LoginController::class , 'authenticate']);
