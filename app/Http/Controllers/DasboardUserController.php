@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Product;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -21,9 +22,10 @@ class DasboardUserController extends Controller
     public function index()
     {
         if (Auth::user()->role == 'user') {
-           return view('dashboard-user.index',[
+            return view('dashboard-user.index', [
                 'title' => 'user',
-                'active' => 'user'
+                'active' => 'user',
+                'products' => Product::all()
             ]);
         } else {
             abort(403);

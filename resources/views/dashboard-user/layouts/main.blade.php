@@ -10,14 +10,15 @@
     {{-- My Style --}}
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"></script>
     <title>Kecantikan | {{ $title }}</title>
 
   </head>
   <body>
         @include('partials.navbar')
 
-        <div class="container m-5 p-5">
+        <div class="container mx-auto m-5 p-5">
           @yield('container')
         </div>
     
