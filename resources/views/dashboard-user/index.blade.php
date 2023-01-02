@@ -100,7 +100,7 @@
               <div class="card" style="border-radius: 15px;">
                 <div class="bg-image hover-overlay ripple ripple-surface ripple-surface-light"
                   data-mdb-ripple-color="light">
-                  <img src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/E-commerce/Products/12.webp"
+                  <img src="https://source.unsplash.com/random/300×300/?cosmetic"
                     style="border-top-left-radius: 15px; border-top-right-radius: 15px;" class="img-fluid"
                     alt="Laptop" />
                   <a href="#!">
@@ -141,6 +141,7 @@
                           </div>
                           <div class="modal-body">
                             <h5 class="mb-3">Detail Produk</h5>
+                            <img width="400px" height="500px" src="https://source.unsplash.com/random/300×300/?cosmetic" alt="" class="mb-3">
                             <div class="col-md-4">
                               <ul class="list-group list-group-light">
                                 <li class="list-group-item">{{ $product->nama }}</li>
@@ -153,7 +154,7 @@
                               <div class="row text-center">
                                 <div class="col-md-4 mb-5 mb-md-0">
                                   <div class="d-flex justify-content-center mb-4">
-                                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                    <img src="https://source.unsplash.com/random/500×500/?{{ $product->nama }}"
                                       class="rounded-circle shadow-1-strong" width="150" height="150" />
                                   </div>
                                   <h5 class="mb-3">Maria Smantha</h5>
