@@ -1,12 +1,16 @@
 <?php
 
+
+
+// use App\Models\Post;
+// use App\Models\User;
+use App\Models\Category;
+
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PostController;
 use App\Http\Controllers\LoginController;
 use App\Http\Controllers\RegisterController;
-use App\Http\Controllers\DasboardUserController;
-use App\Http\Controllers\DashboardAdminController;
-use App\Http\Controllers\CategoryController;
-use App\Http\Controllers\ProductController;
+use App\Http\Controllers\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,66 +24,67 @@ use App\Http\Controllers\ProductController;
 */
 
 Route::get('/', function () {
-    return view('home', [
-        "title" => "Home",
-        'active' => 'home'
+   return view ('home', [
+    "title"=> "Home",
+    'active'=> 'home',
     ]);
 });
 
 Route::get('/about', function () {
-    return view('about', [
+    return view ('about', [
         "title" => "About",
-        'active' => 'about'
+        'active'=> 'about',
+        "name" => "Ryan fany fadlyllah AR",
+        "email" => "fadlyllahfanny@gmail.com",
+        "image" => "fadlyllah.jpg"
     ]);
 });
 
-Route::get('/product', function () {
-    return view('product', [
-        "title" => "Product",
-        'active' => 'product'
+Route::get('/categories', function(){
+    return view('categories',[ 
+        'title'=> 'Post Categories',
+        'active'=> 'categories',
+        'categories'=> Category::all()
     ]);
 });
 
-Route::get('/make-up', function () {
-    return view ('make-up', [
-        "title" => "Make Up",
-        'active' => 'make up'
-    ] );
-});
 
-Route::get('/body-care', function () {
-    return view ('body-care', [
-        "title" => "Body Care",
-        'active' => 'body Care'
+Route::get('/posts', [PostController::class, 'index']);
+
+// halaman single post
+Route::get('/posts/{post:slug}',[PostController::class, 'show'] );
+
+
+Route::get('categories', function(){
+    return view('categories',[
+        'title'=> 'Post Categories',
+        'active'=> 'categories',
+        'categories'=> Category::all()
     ]);
 });
 
-Route::get('/nails', function () {
-    return view ('nails', [
-        "title" => "Nails",
-        'active' => 'nails'
-    ]);
-});
 
-//login
-Route::get('/login', [LoginController::class , 'index'])->name('login')->middleware('guest');
-Route::post('/login', [LoginController::class , 'authenticate']);
+Route::get('/login', [LoginController::class, 'index'])->name('login')->middleware('guest');
+Route::post('/login', [LoginController::class, 'authenticate']);
+Route::post('/logout', [LoginController::class, 'logout']);
 
-//logout
-Route::post('/logout', [LoginController::class , 'logout']);
+Route::get('/register',[RegisterController::class, 'index']);
+Route::post('/register',[RegisterController::class, 'store']);
 
-//register
-Route::get('/register', [RegisterController::class , 'index'])->middleware('guest');
-Route::post('/register', [RegisterController::class , 'store']);
+Route::get('dashboard', [DashboardController::class, 'index'])->middleware('auth');
 
-Route::get('/dashboard-user', [DasboardUserController::class, 'index']);
+// Route::get('/categories/{category:slug}', function(Category $category){
+//     return view('posts',[ 
+//         'title'=> "Post By Category : $category->name",
+//         'active'=> 'categories',
+//         'posts'=> $category->posts->load('category', 'author')
+//     ]);
+// });
 
-Route::prefix('/dashboard-admin')->middleware('auth')->group(function () {
-    // dashboard admin
-    Route::get('/', [DashboardAdminController::class, 'index']);
-});
-
-// category
-Route::resource('/categories', CategoryController::class);
-// product
-Route::resource('/products', ProductController::class);
+// Route::get('/authors/{author:username}', function(User $author){
+//     return view('posts',[ 
+//         'title'=> "Post By Author : $author->name",
+//         'active' => 'post',
+//         'posts'=> $author->posts->load('category', 'author'),
+//     ]);
+// });

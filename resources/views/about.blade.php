@@ -4,7 +4,7 @@
 
 <div class="text-center">
   <h1>Next Cosmetic</h1>
-  <p>Kata dari next kami ambil nama depan kelompok dalam arti produk kecantikan selanjutnya</p>
+  <p class="fs-5">Next Cosmetik kami menyediakan produk kecantikan yang kami produksi sendiri di jamin aman karena telah bersertifikat BPOM dan bisa membuat kamu semakin percaya diri </p>
   <div class="row ms-auto text-center">
     <div class="col">
       <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
