@@ -5,9 +5,6 @@
     
     <section class="mb-4">
       <h4>Next Cosmetic - Jual Beli Cosmetic Online</h4>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum consectetur quisquam dolorem itaque est perferendis, deleniti natus quibusdam vel quis. Assumenda totam officia sint quibusdam, in quos culpa inventore sequi ea, maxime quasi quidem voluptate error! Necessitatibus voluptates consequuntur magnam ex non cumque doloribus! Eveniet nobis, eligendi error veritatis labore voluptatum distinctio tempore vero rerum est alias quisquam ratione voluptate culpa. Iste explicabo, quibusdam quas cumque accusantium et aut asperiores repellendus iusto alias unde, molestiae beatae velit ex? Ratione asperiores enim quisquam cum placeat at ad esse animi incidunt! Quo officia qui quasi, repellendus eveniet nihil iste quas in. Nihil?
-      </p>
     </section>
 
     <section class="">

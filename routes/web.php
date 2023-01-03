@@ -45,6 +45,12 @@ Route::get('/categories', function(){
     ]);
 });
 
+Route::get('/profile', function () {
+    return view ('profile', [
+        "title" => "Profile",
+        'active'=> 'profile'
+    ]);
+});
 
 Route::get('/posts', [PostController::class, 'index']);
 

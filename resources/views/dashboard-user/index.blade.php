@@ -40,54 +40,30 @@
     <div class="container marketing">
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="col-lg-1">
-          <img src="img/kategori1.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary"  alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Facial Skin Care Tools</p>
+        <div class="col-md-2">
+          <img src="img/k1.jpg" class="d-block w-100 mt-3 img-thumbnail"  alt="..." height="200">
+          <p class="fw-normal mt-1" style="font-size: 13px">Lip Product</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori2.png" class="d-block w-100  mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px" >Hand and Foot Care Tool</p>
+        <div class="col-md-2">
+          <img src="img/k2.jpg" class="d-block w-100  mt-3 img-thumbnail" alt="..." height="200">
+          <p class="fw-normal mt-1" style="font-size: 13px">Beauty Blender</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
+        <div class="col-md-2">
+          <img src="img/k3.jpg" class="d-block w-100 mt-3 img-thumbnail" alt="..." height="200">
+          <p class="fw-normal mt-1" style="font-size: 13px">Foundation</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
+        <div class="col-md-2">
+          <img src="img/k4.jpg" class="d-block w-100 mt-3 img-thumbnail" alt="..." height="200">
+          <p class="fw-normal mt-1" style="font-size: 13px">Eye shadow</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
+        <div class="col-md-2">
+          <img src="img/k5.jpg" class="d-block w-100 mt-3 img-thumbnail" alt="..." height="200">
+          <p class="fw-normal mt-1" style="font-size: 13px">Body Lotion</p>
         </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-1">
-          <img src="img/kategori3.png" class="d-block w-100 mt-3 img-thumbnail rounded border border-primary" alt="..." height="10%">
-          <p class="fw-normal mt-1" style="font-size: 13px">Body Care Tools</p>
-        </div><!-- /.col-lg-4 -->
+        <div class="col-md-2">
+          <img src="img/k6.jpg" class="d-block w-100 mt-3 img-thumbnail" alt="..." height="200">
+          <p class="fw-normal mt-1" style="font-size: 13px">Brush</p>
+        </div>
       </div><!-- /.row -->
 
       {{-- produk dan detail --}}

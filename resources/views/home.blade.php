@@ -35,7 +35,7 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
-  </div>
+  </div> 
 
   <div class="banner">
     <div class="row">
