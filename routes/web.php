@@ -33,10 +33,7 @@ Route::get('/', function () {
 Route::get('/about', function () {
     return view ('about', [
         "title" => "About",
-        'active'=> 'about',
-        "name" => "Ryan fany fadlyllah AR",
-        "email" => "fadlyllahfanny@gmail.com",
-        "image" => "fadlyllah.jpg"
+        'active'=> 'about'
     ]);
 });
 
