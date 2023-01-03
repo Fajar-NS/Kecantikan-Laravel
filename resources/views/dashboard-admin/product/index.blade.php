@@ -1,9 +1,11 @@
 @extends('dashboard-admin.layouts.main')
 
 @section('container')
-<h3 class="mb-4">Product</h3>
-<a href="products/create" class="bg-primary border border-primary mb-6 rounded text-white py-2 px-4 text-decoration-none">Tambah</a>
-<table class="table shadow mt-4">
+<h3 class="container mb-4">Product</h3>
+<div class="container">
+  <a href="products/create" class="bg-primary border border-primary mb-6 rounded text-white py-2 px-4 text-decoration-none">Tambah</a>
+</div>
+<table class="container table shadow mt-4">
     <thead>
       <tr>
         <th scope="col">#</th>
