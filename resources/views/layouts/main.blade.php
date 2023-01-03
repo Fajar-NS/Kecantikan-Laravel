@@ -11,10 +11,13 @@
 
     {{-- Bootsrap Icons --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    {{-- font --}}
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
     {{-- My Style --}}
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/carousel.css">
+    <link rel="stylesheet" href="css/about.css">
     
     <title>Kecantikan | {{ $title }}</title>
 
