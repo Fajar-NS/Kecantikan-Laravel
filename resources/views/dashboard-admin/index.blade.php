@@ -1,4 +1,4 @@
-[23.23, 3/1/2023] Fajar Unpas: @extends('dashboard-admin.layouts.main')
+@extends('dashboard-admin.layouts.main')
 
 @section('container')
 
