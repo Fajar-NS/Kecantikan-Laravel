@@ -29,8 +29,6 @@
     @include('partials.navbarv2')
     
     @yield('container')
-    
-        @include('partials.footer')
 
     
 

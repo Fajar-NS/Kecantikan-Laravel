@@ -1,9 +1,9 @@
 @extends('dashboard-admin.layouts.main')
 
 @section('container')
-<h3 class="mb-4">Tambah Product</h3>
+<h3 class="container mb-4">Tambah Product</h3>
 
-<div class="mb-3">
+<div class="container mb-3">
     <form action="/products/{{ $product->id }}" method="post">
         @method('put')
         @csrf
@@ -28,7 +28,7 @@
             <p class="invalid-feedback text-danger">{{ $message }}</p>
         @enderror
         </div>
-        <div class="mb-3">
+        <div class="container mb-3">
         <button type="submit" class="btn btn-primary">Edit</button>
     </form>
 </div>
